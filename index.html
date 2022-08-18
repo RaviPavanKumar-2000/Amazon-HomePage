@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazon HomePage</title>
+        <link rel="stylesheet" href="home.css"/>
+        <link rel="icon" href="https://i.ibb.co/rk1PTSD/Amazon-photo.jpg"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/c4338603d0.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Amazon</a>
+                    </div>
+                    <button type="button" class="btn btn-success">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </button>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search.." name="search">
+                          <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                              <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                          </div>
+                        </div>
+                    </form>
+                    
+                    <div class="collapse navbar-collapse" id="devNav">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-user"></span> Sign Up
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-log-in"></span> Log In
+                                </a>
+                            </li>
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-shopping-cart"></i>
+                            </button>
+                        </ul>
+                    </div>
+                    
+            </div>
+        </nav>
+        <div class="deal">
+            <button class="btnwhite">All</button>
+            <button>Today Deals</button>
+            <button>Offers</button>
+            <button>Amazon Pay</button>
+        </div>
+
+        <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://i.ibb.co/rk0SH39/oneplus.jpg" alt="oneplus" class="slideImg"/>
+                    </div>
+                    <div class="item">
+                        <img src="https://i.ibb.co/BrfX2Fk/laptop.jpg" alt="laptop" class="slideImg"/>
+                    </div>
+                    <div class="item">
+                        <img src="https://i.ibb.co/TL2CYQM/Furniture.png" alt="Furniture" class="slideImg"/>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#devCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#devCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item" id="first">
+                <div>
+                    <img src="https://i.ibb.co/9ZtbHKq/samM13.jpg" alt="sam13" class="slimg"/>
+                </div>
+                <div>
+                    <h3>Samsung Mobiles</h3>
+                    <h4>Price starts from <b>8999/-</b></h4>
+                </div>
+                
+            </div>
+            <div class="item" id="second">
+                <div>
+                    <img src="https://i.ibb.co/L0jYCxn/slaptop.webp" alt="slaptop" class="slimg"/>
+                </div>
+                <div>
+                    <h4>Touch Laptops with pen</h4>
+                    <h4>Price starts from <b>20999/-</b></h4>
+                </div>
+            </div>
+            <div class="item" id="third">
+                <div>
+                    <img src="https://i.ibb.co/kc84Hdf/smartwatch.jpg" alt="smartwatch" class="slimg"/>
+                </div>
+                <div>
+                    <h3>Smart watches</h3>
+                    <h4>Price starts from <b>1999/-</b></h4>
+                </div>
+            </div>
+            <div class="item" id="fourth">
+                <div>
+                    <img src="https://i.ibb.co/jWbys6w/trolley1.webp" alt="trolley" class="slimg"/>
+                </div>
+                <div>
+                    <h3>Trolley</h3>
+                    <h4>Price starts from <b>2599/-</b></h4>
+                </div>
+            </div>
+            <div class="item" id="fifth">
+                <div>
+                    <img src="https://i.ibb.co/6wx0NLx/beds.webp" alt="beds" class="slimg"/>
+                </div>
+                <div>
+                    <h4>Bed</h4>
+                    <h4>Price starts from <b>10699/-</b></h4>
+                </div>
+            </div>
+            <div class="item" id="sixth">
+                <div>
+                    <img src="https://i.ibb.co/wrG4JxJ/Books.webp" alt="books" class="slimg"/>
+                </div>
+                <div>
+                    <h4>Autobiography Books</h4>
+                    <h4>Price starts from <b>799/-</b></h4>
+                </div>
+            </div>
+            <div class="item" id="seventh">
+                <div>
+                    <img src="https://i.ibb.co/Ns46QJ6/gym.webp" alt="gym" class="slimg"/>
+                </div>
+                <div>
+                    <h3>Home Gym</h3>
+                    <h4>Price starts from <b>1299/-</b></h4>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            })
+        </script>
+        <div class="maintilecontainer">
+                
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://i.ibb.co/N78J5WJ/tshiirt.webp" alt="T-shirts"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentheading">
+                        <h3>T-shirts</h3>
+                    </div>
+                    <div class="componentsubheading">
+                        Best deal for Mens wear
+                    </div>
+                </div>
+            </div>
+
+    
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://i.ibb.co/dJSL2ZL/saree.webp" alt="sarees"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentheading">
+                        <h3>Sarees</h3>
+                    </div>
+                    <div class="componentsubheading">
+                        Trending Women wear
+                    </div>
+                 </div>
+            </div>
+            
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://i.ibb.co/4mv61ZJ/Shoes.webp" alt="shoes"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentheading">
+                        <h3>Shoes</h3>
+                    </div>
+                    <div class="componentsubheading">
+                        Shoes of the Month
+                    </div>
+                 </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://i.ibb.co/37bPCZJ/sandles.webp" alt="sandles"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentheading">
+                        <h3>Sandle</h3>
+                    </div>
+                    <div class="componentsubheading">
+                        Flat sale on sandle for Women
+                    </div>
+                 </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://i.ibb.co/xqFnQqt/girls.webp" alt="girls"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentheading">
+                        <h3>Frocks</h3>
+                    </div>
+                    <div class="componentsubheading">
+                        Fashoin Frocks for girls
+                    </div>
+                 </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://i.ibb.co/WH3CM8b/toys.webp" alt="Toys"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentheading">
+                        <h3>Toys</h3>
+                    </div>
+                    <div class="componentsubheading">
+                         Game boards for kids
+                    </div>
+                 </div>
+            </div>
+        </div>
+        
+        <footer>
+            <h3>&copy; Zomato</h3>
+            <ul>
+                <li>contact us :zomato@gmail.com</li>
+            </ul>
+        </footer>
+
+    </body>
+</html>

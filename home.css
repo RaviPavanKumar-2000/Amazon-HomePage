@@ -1,0 +1,135 @@
+.navbar{
+    margin-bottom: 0px !important;
+}
+.navbar-inverse {
+    background-color: rgb(47, 79, 79) !important;
+    border-color: #080808;
+}
+.navbar-inverse .navbar-brand {
+    color: white !important;
+}
+.navbar-brand {
+    font-size: 33px !important;
+}
+.btn-success{
+    float: left;
+    color: #fff;
+    background-color: rgb(47, 79, 79) !important;
+    border-color: rgb(47, 79, 79) !important;
+}
+.fa-location-dot{
+    float: left;
+    font-size: 30px;
+    
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white !important;
+}
+.deal{
+    height: 30px;
+    /* border: 2px solid green; */
+    background-color: rgb(55 131 131);
+}
+.slideImg{
+    width: 100%;
+    height: 350px !important;
+}
+#first{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.slimg{
+    height: 150px;
+}
+#second{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+#third{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+#fourth{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+#fifth{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+    
+}
+#sixth{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+#seventh{
+    height: 230px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.maintilecontainer{
+    display: inline-block;
+}
+.tilecontainer{
+    height: 180px;
+    width: 30%;
+    
+    box-shadow: 10px 15px 10px #3b2632;
+    float:left;
+    margin-left: 2%;
+    margin-top: 3%;
+    
+}
+
+
+
+.tilecontainer:hover{
+    transform: scale(1.1);
+    
+}
+.tilecomponent1{
+    width:52%;
+    float: left;
+    border: 1px solid black;
+}
+.tilecomponent1 img{
+    height: 180px;
+    width: 100%;
+}
+.tilecomponent2{
+    width:45%;
+    float: left;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+.componentheading{
+    color: black;
+    font-size: 25px;
+}
+.componentheading > a {
+    color: #5d41e4 !important;
+}
+.componentsubheading{
+    color: gray;
+    font-size: 20px;
+}
+
+footer{
+    height: 80px;
+    /* border: 5px groove green; */
+    background-color: rgb(47, 79, 79);
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    display:block;
+}
+ul{
+    list-style: none;
+}
+
